@@ -7,6 +7,6 @@ char* welcome() {
 int main() {
     int radius;
     scanf("%d", &radius);
-    printf("Area: %f", 3.14*radius);
+    printf("Area: %.2f", 3.14*radius);
     return 0;
 }
