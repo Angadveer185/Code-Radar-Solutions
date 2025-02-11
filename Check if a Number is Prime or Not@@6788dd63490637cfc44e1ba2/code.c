@@ -4,7 +4,7 @@ int main() {
     int n = 13;
     int prime = 1;
 
-    if (n < 2) {
+    if (n <= 2) {
         prime = 0;
     } else {
         for (int i = 2; i * i <= n; i++) {
