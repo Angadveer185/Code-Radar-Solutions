@@ -8,7 +8,7 @@ int main() {
         prime = 0;
     } else {
         for (int i = 2; i * i <= n; i++) {
-            if (n % i == 0) {
+            if (n % i != 0) {
                 prime = 0;
                 break;
             }
