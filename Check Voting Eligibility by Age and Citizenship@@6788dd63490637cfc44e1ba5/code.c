@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    int age cit;
+    int age, cit;
     scanf("%d %d", &age, &cit);
 
     if (age >= 60 && cit==1) {
