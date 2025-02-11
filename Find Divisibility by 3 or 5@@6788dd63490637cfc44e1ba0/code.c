@@ -5,13 +5,13 @@ int main() {
     scanf("%d", &a);
     
     if(a%5==0 && a%3==0){
-        printf("Divisible By Both");
+        printf("Divisible by Both");
     }
     else if(a%5==0){
-        printf("Divisible By 5");
+        printf("Divisible by 5");
     }
     else if(a%3==0){
-        printf("Divisible By 3");
+        printf("Divisible by 3");
     }
     else{
         printf("Not Divisible");
