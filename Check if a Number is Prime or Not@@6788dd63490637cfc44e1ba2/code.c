@@ -4,7 +4,6 @@ int main() {
     int n;
     scanf("%d", &n);
     int prime = 1;
-
     if (n < 2) {
         prime = 0;
     } else {
