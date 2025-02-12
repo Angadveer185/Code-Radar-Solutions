@@ -6,10 +6,10 @@ int main() {
     scanf("%f %f %c", &num1, &num2, &choice);
     
     switch(choice){
-        case '+': printf("%d", num1 + num2); break;
-        case '-': printf("%d", num1 - num2); break;
-        case '*': printf("%d", num1 * num2); break;
-        case '/': printf("%d", num1 / num2); break;
+        case '+': printf("%.0f", num1 + num2); break;
+        case '-': printf("%.0f", num1 - num2); break;
+        case '*': printf("%.0f", num1 * num2); break;
+        case '/': printf("%.0f", num1 / num2); break;
         default: printf("Invalid"); break;
     }
     return 0;
