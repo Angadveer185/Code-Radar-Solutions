@@ -9,7 +9,13 @@ int main() {
         case '+': printf("%.0f", num1 + num2); break;
         case '-': printf("%.0f", num1 - num2); break;
         case '*': printf("%.0f", num1 * num2); break;
-        case '/': printf("%.0f", num1 / num2); break;
+        case '/': 
+        if (num2==0):{
+        printf("error");
+        break;}
+        else{
+            printf("%.0f", num1 / num2); 
+            break;}
         default: printf("Invalid"); break;
     }
     return 0;
