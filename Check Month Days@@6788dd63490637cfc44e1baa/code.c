@@ -21,7 +21,7 @@ int main() {
         case 9: 
         case 11: 
         printf("31"); break;
-        default: printf("Invalid"); break;
+        default: printf("Invalid Month"); break;
     }
     return 0;
 }
