@@ -7,7 +7,7 @@ void main() {
     scanf("%d", &num);
 
     if (num == 0) {
-        printf("Binary: 0\n");
+        printf("0");
     }
 
     while (num > 0) {
