@@ -1,15 +1,22 @@
 #include <stdio.h>
 
-int main(){
-    int num, binary=0, digit, place=1;
-    scanf("%d",&num);
-    
-    while(num>0){
-        digit = num % 2;
-        binary += digit * place;
-        num /= 2;
-        place *= 10;
+void main() {
+    int num, i = 0;
+    int binary[32];
+
+    scanf("%d", &num);
+
+    if (num == 0) {
+        printf("Binary: 0\n");
     }
-    printf("%d\n",binary);
-    return 0;
+
+    while (num > 0) {
+        binary[i] = num % 2;
+        num /= 2;
+        i++;
+    }
+
+    for (int j = i - 1; j >= 0; j--) {
+        printf("%d", binary[j]);
+    }
 }
