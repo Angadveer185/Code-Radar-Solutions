@@ -1,5 +1,5 @@
 #include <string.h>
-void bubbleSort(char arr[][1000], int n)
+void bubbleSort(char arr[][100], int n)
 {
     for (int i = 0; i < n - 1; i++)
     {
