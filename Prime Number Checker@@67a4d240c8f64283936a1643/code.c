@@ -12,9 +12,5 @@ int isPrime(int n){
         }
     }
 
-    if (prime) {
-        return 1;
-    } else {
-        return 0;
-    }
+    return prime;
 }
