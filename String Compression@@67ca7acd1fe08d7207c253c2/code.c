@@ -2,7 +2,7 @@
 void compressString(char str, char compressed){
     int count=0, curridx = 0;
 
-    for(int i=0; i < strlen(str)-1; i++){
+    for(int i = 0; i < strlen(str); i++){
         if(str[i] == str[i+1]){
             count++;
         }
