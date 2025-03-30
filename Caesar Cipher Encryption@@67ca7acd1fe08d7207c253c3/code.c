@@ -1,4 +1,4 @@
-char caesarCypher(char str[], shift, char encrypted[1000])
+char caesarCypher(char str[], int shift, char encrypted[1000])
 {
     for (int i = 0; i < strlen(str); i++)
     {
