@@ -7,10 +7,12 @@ void compressString(char str[], char compressed[]){
             count++;
         }
         else{
-            compressed[curridx] = i;
-            curr++;
+            compressed[curridx] = str[i];
+            curridx++;
+            if(count>1){
             compressed[curridx] = count;
-            curr++;
+            curridx++;
+            }
             count = 0;
         }
     }
