@@ -1,8 +1,8 @@
 #include <string.h>
 void compressString(char str, char compressed){
-    int count=0, length = strlen(str), curridx = 0;
+    int count=0, curridx = 0;
 
-    for(int i=0, i < length-1, i++){
+    for(int i=0, i < strlen(str)-1, i++){
         if(str[i] == str[i+1]){
             count++;
         }
