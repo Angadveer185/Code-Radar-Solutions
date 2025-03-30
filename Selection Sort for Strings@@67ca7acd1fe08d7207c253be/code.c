@@ -1,3 +1,4 @@
+#include <string.h>
 void selectionSort(char arr[][100], int size) {
     for (int i = 0; i < size - 1; i++) {
         int smallidx = i; 
