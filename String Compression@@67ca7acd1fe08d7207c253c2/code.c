@@ -1,3 +1,4 @@
+#include <string.h>
 void compressString(char str[], char compressed[]) {
     int count = 1, curridx = 0;
 
