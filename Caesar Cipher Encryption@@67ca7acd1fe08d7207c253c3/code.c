@@ -15,5 +15,5 @@ void caesarCipher(char str[], int shift, char encrypted[1000]) {
             }
         }
     }
-    encrypted[strlen(str)] = '\0';  // Null-terminate the string
+    encrypted[strlen(str)] = '\0';
 }
