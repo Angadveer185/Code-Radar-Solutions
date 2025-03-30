@@ -17,9 +17,8 @@ void bubbleSort(char arr[][100], int n)
 }
 
 
-void printArray(int arr[])
+void printArray(int arr[], int size)
 {
-    int size = sizeof(arr) / sizeof(arr[0]);
     for (int i = 0; i < size; i++)
     {
         printf("%d ", arr[i]);
