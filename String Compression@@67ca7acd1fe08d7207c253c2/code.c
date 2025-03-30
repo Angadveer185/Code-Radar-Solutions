@@ -17,4 +17,7 @@ void compressString(char str[], char compressed[]) {
     }
     
     compressed[curridx] = '\0';
+    if(strlen(compressed) > strlen(str)){
+        strcpy(str, compressed)
+    }
 }
