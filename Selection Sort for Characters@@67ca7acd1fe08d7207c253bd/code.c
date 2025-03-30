@@ -12,8 +12,8 @@ void selectionSort(char arr[], int size){
         if (smallidx != i)
         {
         int temp = arr[i];              //swaps smallest number with current index
-        arr[i] = arr[smallidx];
-        arr[smallidx] = temp;
+        arr[i] = (char)arr[smallidx];
+        arr[smallidx] = (char)temp;
         }
     }
 }
