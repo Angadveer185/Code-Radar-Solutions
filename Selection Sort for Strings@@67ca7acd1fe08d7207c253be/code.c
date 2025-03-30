@@ -4,7 +4,7 @@ void selectionSort(char arr[], int size){
         int smallidx = i; //Takes current index (0, 1, 2...)
         for (int j = i+1; j < size; j++)
         {
-            if (arr[j][0] < arr[smallidx][0]) // checks smallest number
+            if (arr[j] < arr[smallidx]) // checks smallest number
             {
                 smallidx = j;
             }
