@@ -12,8 +12,8 @@ void selectionSort(char arr[], int size){
         if (smallidx != i)
         {
         int temp = arr[i];              //swaps smallest number with current index
-        arr[i] = (char)arr[smallidx];
-        arr[smallidx] = (char)temp;
+        arr[i] = arr[smallidx];
+        arr[smallidx] = temp;
         }
     }
 }
@@ -22,7 +22,7 @@ void printArray(char arr[], int size)
 {
     for (int i = 0; i < size; i++)
     {
-        printf("%d ", arr[i]);
+        printf("%c ", arr[i]);
     }
     printf("\n");
 }
